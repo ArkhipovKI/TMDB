@@ -1,0 +1,39 @@
+@media (max-width: 1007px) {
+  .movie-app {
+    max-width: 600px;
+  }
+  .movies__list {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (min-width: 1007px) {
+  .movie-app {
+    max-width: 1100px;
+  }
+}
+
+.movies {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 19px 32px;
+  background: #fff;
+}
+
+.movie-app {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 19px 32px;
+  background: #fff;
+}
+.pagination-wrapper {
+  text-align: center;
+  margin: 5px 0;
+}
+.spinner-wrapper {
+  margin-top: 20px;
+  text-align: center;
+}
