@@ -131,6 +131,7 @@ const App = () => {
       setIsLoading(false);
     };
     getMovieRequest(page);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [page]);
 
   useEffect(() => {
@@ -138,6 +139,7 @@ const App = () => {
       getSearchedMovies(searchValue, page);
     }, 700);
     getResult();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [searchValue, page]);
 
   return (

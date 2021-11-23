@@ -28,10 +28,9 @@
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 15%);
 }
 
-.movie-genres {
+.movies__genres {
   display: flex;
   flex-wrap: wrap;
-  padding-left: -32px;
 }
 
 .movie-genre {
@@ -55,4 +54,47 @@
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  margin-bottom: auto;
+}
+.movies__rate {
+  position: absolute;
+  top: 12px;
+  right: 9px;
+  font-size: 12px;
+  line-height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #e9d100;
+  border-radius: 50%;
+}
+
+.movies__rate--from-zero-to-three {
+  border: 2px solid red;
+}
+
+.movies__rate--from-three-to-five {
+  border: 2px solid orange;
+}
+
+.movies__rate--more-than-seven {
+  border: 2px solid green;
+}
+.movies__title {
+  max-width: 200px;
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 7 px;
+}
+
+.ant-rate {
+  margin-bottom: 10px;
+}
+.movies__date {
+  font-size: 12px;
+  line-height: 22px;
+  color: #827e7e;
+  margin-bottom: 9px;
 }
